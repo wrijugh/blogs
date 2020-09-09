@@ -69,7 +69,7 @@ In **Azure CLI** we can also use it filter the output result. If I want to get t
 ```
 So we can use ```osProfile.adminUsername```
 
-So the final **Azure CLI** would look like,
+The final **Azure CLI** would look like,
 
 ```bash
 az vm show -g rg-vm -n wm-Ubuntu18 --query "osProfile.adminUsername"
